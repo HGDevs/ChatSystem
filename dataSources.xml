@@ -1,0 +1,18 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MySQL Minecraft" uuid="906cff52-731b-470a-bb86-0b61d8b8c126">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://81.30.156.16:3306/</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+  </component>
+</application>

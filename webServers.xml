@@ -1,0 +1,20 @@
+<application>
+  <component name="WebServers">
+    <sftpAdvancedGlobalOptions>
+      <SftpAdvancedOptions hostKeyCheckingLevel="NO" hashKnownHosts="false">
+        <option name="hashHost" value="false" />
+        <option name="hostKeyCheckingLevel" value="NO" />
+      </SftpAdvancedOptions>
+    </sftpAdvancedGlobalOptions>
+    <option name="servers">
+      <webServer id="8921a4b2-adac-436c-b436-fd3ae5f3acd6" name="Wrapper1" url="http://vps1435969.vs.webtropia-customer.com">
+        <fileTransfer host="vps1435969.vs.webtropia-customer.com" port="22" rootFolder="/Minecraft/CloudNet/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
